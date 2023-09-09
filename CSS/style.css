@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 53px;
+}
+
+.headernav {
+    display: flex;
+    justify-content: space-between;
+    width: 825px;
+    margin-left: 195px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+.firstp {
+    color: #37393F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.headerlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 601px;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+.lastnav {
+    display: flex;
+    padding: 21px 35px 22px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(107, 119, 229, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 184px;
+    height: 65px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 136px; 
+}
+
+h3 {
+    margin-top: 16px;
+    text-align: center;
+    color: #37393F;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121%;
+    font-family: 'Poppins', sans-serif ;
+}
+
+h5 {
+    color: #37393F;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif
+}
+
+main .title {
+    text-align: center;
+}
+
+.workprocess {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    margin-top: 41px;
+}
+
+.workdescription {
+    background-color: rgba(244, 244, 244, 1);
+    width: 386px;
+    height: 383px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description {
+    margin-top: 16px;
+    width: 300px;
+    text-align: center;
+    color: #7D7D7D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146.187%;
+    font-family: 'Inter', sans-serif;
+}
+
+.testimonials {
+    color: #6B77E5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.testimonials {
+    margin-top: 37px;
+    font-family: 'Inter', sans-serif;
+}
+
+.workicon {
+    margin-top: 10px;
+}
+
+.presentationimage {
+    width: 100%;
+    height: auto;
+}
+
+.presentation {
+    margin-top: 60px;
+    position: relative;
+}
+
+.onthepresentationimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.descriptionofpresentation {
+    margin-top: 21px;
+    color: #37393F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146.187%;
+    width: 511px;
+    font-family: 'Inter', sans-serif;
+}
+
+.playbuttom {
+    margin-top: 47px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 136px; 
+}
+
+.experts {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+}
+
+footer .title {
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.expertimage {
+    position: relative;
+}
+
+.aboutexpert {
+    background-color: rgba(255, 255, 255, 1);
+    width: 341px;
+    height: 114px;
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 24px 69px;
+}
+
+.aboutexpert h5, p {
+    text-align: center;
+}
+
+.expertimage p {
+    color: #7D7D7D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.187%;
+    margin-top: 4px;
+    font-family: 'Inter', sans-serif;
+}
+
+
